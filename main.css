@@ -1,0 +1,36 @@
+#main-photo-bar{
+    color: black;
+    font-weight: 700;
+    max-height: 700px;
+}
+
+#main-photo-bar::after {
+    content: "";
+    background-image: url("./img/main_phone.jpeg") !important;
+    background-size: 100% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.41;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#main-photo-bar img{
+    max-width: 200px !important;
+    max-height: 200px !important;
+    border: 0px !important;
+}
+
+#main-photo-bar ul{
+    list-style-type: none;
+}
+
+#main-photo-bar ul li a{
+    color: inherit !important;
+}
